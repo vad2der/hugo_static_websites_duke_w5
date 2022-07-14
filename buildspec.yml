@@ -13,7 +13,7 @@ phases:
             - wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz
             - tar xzvf hugo_${HUGO_VERSION}_Linux-64bit.tar.gz
             - mv hugo /usr/bin/hugo
-            - cd ~
+            - cd -
             - rm -rf /tmp/*
     build:
         commands:
