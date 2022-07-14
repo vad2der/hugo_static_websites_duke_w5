@@ -2,3 +2,7 @@ baseURL = "http://18.209.209.19/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "ananke"
+
+[[deployment.targets]]
+name = "awsbucket"
+URL = "s3://hugo-duke-w5?region=us-east-1"
